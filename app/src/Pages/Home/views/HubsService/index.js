@@ -26,7 +26,7 @@ const HubsService = () => {
     ]
 
     return(
-        <div className="quality wd-cont">
+        <div className="hubs-service wd-cont">
             <StyledTitle title={"Serviços Hubs"}/>
 
             <div className="d-flex justify-content-around align-items-center">
