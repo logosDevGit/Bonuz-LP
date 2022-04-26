@@ -30,8 +30,8 @@ const HubsService = () => {
             <StyledTitle title={"Serviços Hubs"}/>
 
             <div className="d-flex justify-content-around align-items-center">
-                {services.map(({title, image, description}) => {
-                    return <ServicesCard title={title} image={image} description={description} key={title}/>
+                {services.map(({title, image, description}, count) => {
+                    return <ServicesCard title={title} image={image} description={description} key={count}/>
                 })}
             </div>
         </div>

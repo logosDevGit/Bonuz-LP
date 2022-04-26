@@ -63,8 +63,8 @@ const HubsPlans = () => {
             <StyledTitle title={"Planos Hubs"}/>
             <p>contabilidade de rotina</p>
             <div className="cards">
-                {plans.map((plan) => {
-                    return <PlansCard title={plan.title} description={plan.description} list={plan.list} value={plan.value} key={plan.title}/>
+                {plans.map((plan, count) => {
+                    return <PlansCard title={plan.title} description={plan.description} list={plan.list} value={plan.value} key={count}/>
                 })}
             </div>
             <small>*20% off para clientes Bonuz</small>

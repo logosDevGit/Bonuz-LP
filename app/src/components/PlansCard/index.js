@@ -7,8 +7,8 @@ const PlansCard = ({title, description, list, value}) => {
             <h3>{title}</h3>
             <p>{description}</p>
             <ul>
-                {list?.map((line) => {
-                    return <li>{line}</li>
+                {list?.map((line, count) => {
+                    return <li key={count}>{line}</li>
                 })}
             </ul>
             <div className='price-area'>
