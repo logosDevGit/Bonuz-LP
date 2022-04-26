@@ -67,7 +67,9 @@ const HubsPlans = () => {
                     return <PlansCard title={plan.title} description={plan.description} list={plan.list} value={plan.value} key={count}/>
                 })}
             </div>
-            <small>*20% off para clientes Bonuz</small>
+            <div className="d-flex justify-content-end">
+                <small>*20% off para clientes Bonuz</small>
+            </div>
         </div>
     )
 }

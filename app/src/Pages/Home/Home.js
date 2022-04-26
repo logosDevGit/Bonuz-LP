@@ -5,6 +5,7 @@ import Contact from './views/Contact';
 import HubsPlans from './views/HubsPlans';
 import HubsService from './views/HubsService';
 import LittleHub from './views/LittleHub';
+import Partners from './views/Partners';
 import ProvenQuality from './views/ProvenQuality';
 import Welcome from './views/Welcome';
 
@@ -20,6 +21,7 @@ const Home = () => {
             <HubsService/>
             <HubsPlans/>
             <LittleHub/>
+            <Partners/>
         </>
     )
 }
