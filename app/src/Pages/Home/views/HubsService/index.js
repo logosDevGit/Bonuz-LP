@@ -31,7 +31,7 @@ const HubsService = () => {
 
             <div className="d-flex justify-content-around align-items-center">
                 {services.map(({title, image, description}) => {
-                    return <ServicesCard title={title} image={image} description={description} />
+                    return <ServicesCard title={title} image={image} description={description} key={title}/>
                 })}
             </div>
         </div>

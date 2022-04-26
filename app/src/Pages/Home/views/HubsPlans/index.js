@@ -64,7 +64,7 @@ const HubsPlans = () => {
             <p>contabilidade de rotina</p>
             <div className="cards">
                 {plans.map((plan) => {
-                    return <PlansCard title={plan.title} description={plan.description} list={plan.list} value={plan.value}/>
+                    return <PlansCard title={plan.title} description={plan.description} list={plan.list} value={plan.value} key={plan.title}/>
                 })}
             </div>
             <small>*20% off para clientes Bonuz</small>

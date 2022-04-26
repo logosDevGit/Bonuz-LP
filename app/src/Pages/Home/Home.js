@@ -4,6 +4,7 @@ import NavBar from '../../components/NavBar';
 import Contact from './views/Contact';
 import HubsPlans from './views/HubsPlans';
 import HubsService from './views/HubsService';
+import LittleHub from './views/LittleHub';
 import ProvenQuality from './views/ProvenQuality';
 import Welcome from './views/Welcome';
 
@@ -18,6 +19,7 @@ const Home = () => {
             <ProvenQuality/>
             <HubsService/>
             <HubsPlans/>
+            <LittleHub/>
         </>
     )
 }
