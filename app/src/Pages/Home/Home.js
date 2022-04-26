@@ -3,6 +3,7 @@ import '../../assets/styles/global.css'
 import NavBar from '../../components/NavBar';
 import AppInfo from './views/AppInfo';
 import Contact from './views/Contact';
+import Hubs from './views/Hubs';
 import HubsPlans from './views/HubsPlans';
 import HubsService from './views/HubsService';
 import LittleHub from './views/LittleHub';
@@ -20,6 +21,7 @@ const Home = () => {
             <Contact/>
             <ProvenQuality/>
             <HubsService/>
+            <Hubs/>
             <HubsPlans/>
             <LittleHub/>
             <Partners/>
