@@ -5,7 +5,7 @@ import './styles.css';
 const ProvenQuality = () => {
 
     return(
-        <div className="quality">
+        <div className="quality wd-cont">
             <StyledTitle title={"Qualidade Comprovada"}/>
             <QualityBalloon />
         </div>
