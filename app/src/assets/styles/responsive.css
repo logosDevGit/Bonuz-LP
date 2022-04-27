@@ -34,4 +34,16 @@
         margin: 0 auto;
     }
 
+    .contact form {
+        max-width: 320px;
+    }
+
+    .contact form p {
+        font-size: 14px;
+    }
+    .contact svg {
+        max-width: 367px;
+    }
+
+
 }
