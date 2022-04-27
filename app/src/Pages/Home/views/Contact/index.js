@@ -53,9 +53,9 @@ const UR = [
                         <Col xs="4">
                             <FormGroup>
                                 <Input type="select" name="UR" placeholder="Estado">
-                                    <option value="">Estado</option>
+                                    <option value="">UR</option>
                                     {UR.map(option => {
-                                        return <option value={option}>{option}</option>
+                                        return <option key={option} value={option}>{option}</option>
                                     })}
                                 </Input>
                             </FormGroup>

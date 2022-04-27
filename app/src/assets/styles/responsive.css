@@ -1,0 +1,189 @@
+@media all and (max-width: 600px) {
+    #root {
+        width: 100%;
+    }
+
+    .wd-cont {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .styled-title .yellow-line {
+        max-width: 16px !important;
+    } 
+
+    
+    nav {
+        height: 80px;
+    }
+
+    nav img {
+        margin-left: 10px;
+        max-width: 300px;
+    }
+
+
+    .welcome {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .welcome img {
+        max-width: 300px;
+    }
+    .welcome .cont-1 {
+        margin: 0 18px;
+    }
+
+
+    .contact .component{
+        display: flex;
+        align-items: flex-end;
+        margin: 0 auto;
+    }
+
+    .contact form {
+        max-width: 320px;
+    }
+
+    .contact form p {
+        font-size: 14px;
+    }
+    .contact svg {
+        max-width: 360px;
+    }
+
+    
+    .quality {
+        padding-top: 60px !important;
+    }
+
+    .quality-balloon {
+        width: 90% !important;
+        text-align: center;
+        align-items: flex-start !important;
+        height: 125px !important;
+        border-radius: 30px !important;
+        margin: 30px auto !important;
+    }
+
+    .quality-balloon .info h4 {
+        font-size: 24px !important;
+    }
+
+    .quality-balloon .info span {
+        font-size: 16px !important;
+    }
+
+
+    .hubs-service .cards-content {
+        flex-wrap: wrap;
+    }
+
+    .hubs-service .cards-content .services-card{
+        margin: 10px;
+    }
+    
+    .hubs {
+        padding-top: 30px !important;
+    }
+
+    .hubs p {
+        font-size: 16px !important;
+        line-height: 124%;
+        padding: 10px !important;
+    }
+
+    .hubs .media {
+        max-width: 345px !important;
+        height: 223px !important;
+    }
+
+
+    .plans .cards {
+        flex-wrap: wrap;
+    }
+
+    .plans .cards .plans-card{
+        margin-top: 16px;
+    }
+
+    .plans .discount {
+        justify-content: center !important;
+    }
+
+    .plans small {
+        padding-top: 8px !important;
+    }
+
+
+    .little-hub {
+        display: flex;
+        padding-top: 60px !important;
+        justify-content: center !important;
+        height: 510px !important;
+        position: relative;
+    }
+
+    .little-hub .info {
+        margin: 0 20px !important;
+        text-align: center;
+        font-size: 16px !important;
+    }
+
+    .hubinho {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .little-hub img {
+        width: 350px;
+    }
+
+
+    .partners img {
+        max-width: 110px;
+        height: 38px;
+    }
+
+
+    .app-info {
+        padding-top: 0px !important;
+        flex-wrap: wrap;
+        margin: 14px;
+    }
+
+    .app-info small {
+        font-size: 16px !important;
+    }
+
+    .app-info p {
+        font-size: 22px !important;
+    }
+
+    .app-info .big-img {
+        max-width: 320px;
+    }
+    .app-info .big-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    footer {
+        padding: 26px 10px;
+    }
+
+    footer p,footer a {
+        margin-top: 12px !important;
+        font-size: 12px !important;
+    }
+
+    footer svg {
+        max-width: 150px;
+    }
+}

@@ -17,7 +17,7 @@ const AppInfo = () => {
                     <img src={AppleStore} alt="Disponivel na Apple Store"/>
                 </div>
             </div>
-            <div>
+            <div className="big-img">
                 <img src={AppMobile} alt="Acesse o aplicativo"/>
             </div>
         </div>
