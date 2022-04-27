@@ -7,7 +7,15 @@
         max-width: 100%;
         margin: 0;
     }
+
+    .styled-title .yellow-line {
+        max-width: 16px !important;
+    } 
     
+    nav {
+        height: 80px;
+    }
+
     nav img {
         margin-left: 10px;
         max-width: 300px;
@@ -42,7 +50,27 @@
         font-size: 14px;
     }
     .contact svg {
-        max-width: 367px;
+        max-width: 360px;
+    }
+
+    .quality {
+        padding-top: 60px !important;
+    }
+
+    .quality-balloon {
+        width: 90% !important;
+        text-align: center;
+        align-items: flex-start !important;
+        height: 125px !important;
+        border-radius: 30px !important;
+        margin: 30px auto !important;
+    }
+
+    .quality-balloon .info h4 {
+        font-size: 24px !important;
+    }
+    .quality-balloon .info span {
+        font-size: 16px !important;
     }
 
 
