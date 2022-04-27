@@ -8,9 +8,9 @@ const Footer = () => {
         <footer>
             <LogoWhite/>
             <div className="icons">
-                <a><FaInstagram/></a>
-                <a className="mx-3"><FaFacebookF/></a>
-                <a><FaLinkedinIn/></a>
+                <a rel="noreferrer" href="https://www.instagram.com/b.onuz/" target="_blank"><FaInstagram/></a>
+                <a className="mx-3" rel="noreferrer" href="https://www.facebook.com/BNZAdvogados/" target="_blank"><FaFacebookF/></a>
+                <a rel="noreferrer" href="https://www.linkedin.com/company/bonuz/" target="_blank"><FaLinkedinIn/></a>
             </div>
             <div>
                 <p>© Copyright 2021 Bonuz IT - All Rights Reserved</p>
