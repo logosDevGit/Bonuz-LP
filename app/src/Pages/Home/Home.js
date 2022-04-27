@@ -25,8 +25,8 @@ const Home = () => {
             <HubsService/>
             <Hubs/>
             <HubsPlans/>
-            {/* <LittleHub/>
-            <Partners/>
+            <LittleHub/>
+            {/* <Partners/>
             <AppInfo/>
             <Footer/> */}
         </>

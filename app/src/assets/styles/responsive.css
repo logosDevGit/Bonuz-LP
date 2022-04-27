@@ -119,4 +119,29 @@
         padding-top: 8px !important;
     }
 
+
+    .little-hub {
+        display: flex;
+        padding-top: 60px !important;
+        justify-content: center !important;
+        height: 510px !important;
+        position: relative;
+    }
+
+    .little-hub .info {
+        margin: 0 20px !important;
+        text-align: center;
+        font-size: 16px !important;
+    }
+
+    .hubinho {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .little-hub img {
+        width: 350px;
+    }
+
 }
