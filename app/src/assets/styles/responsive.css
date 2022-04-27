@@ -92,7 +92,7 @@
     }
 
     .hubs p {
-        font-size: 18px !important;
+        font-size: 16px !important;
         line-height: 124%;
         padding: 10px !important;
     }
@@ -100,6 +100,23 @@
     .hubs .media {
         max-width: 345px !important;
         height: 223px !important;
+    }
+
+
+    .plans .cards {
+        flex-wrap: wrap;
+    }
+
+    .plans .cards .plans-card{
+        margin-top: 16px;
+    }
+
+    .plans .discount {
+        justify-content: center !important;
+    }
+
+    .plans small {
+        padding-top: 8px !important;
     }
 
 }
