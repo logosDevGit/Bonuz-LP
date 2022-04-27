@@ -13,14 +13,48 @@ font-family: 'Montserrat', sans-serif;
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Montserrat', sans-serif;
+    color: #4E4B59;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid #D3D2D7;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
 }
 
 .wd-cont {
     max-width: 1218px;
     margin: 0 auto;
+}
+
+.btn-red {
+    background: #F14F5C;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+.btn-red:hover {
+    background: #c9424d;
+    color: white;
+}
+
+.btn-yellow {
+    background: #F6BD00;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.btn-yellow:hover {
+    background: #ddaa00;
+    color: white;
 }

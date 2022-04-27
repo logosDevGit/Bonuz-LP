@@ -1,0 +1,18 @@
+.little-hub {
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    justify-content: flex-end;
+    height: 500px;
+}
+.hubinho {
+    position: absolute;
+    left: 0;
+}
+.little-hub .info {
+    display: block;
+    margin-left: auto;
+    max-width: 600px;
+    font-weight: 600;
+    font-size: 18px;
+}

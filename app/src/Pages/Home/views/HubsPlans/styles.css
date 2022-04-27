@@ -1,0 +1,15 @@
+.plans {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.plans .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.plans small {
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 300;
+}

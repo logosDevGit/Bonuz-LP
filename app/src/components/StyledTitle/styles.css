@@ -1,0 +1,12 @@
+.styled-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.styled-title .yellow-line {
+    background-color: var(--hub-ylw);
+    max-width: 46px;
+    width: 100%;
+    height: 3px;
+    margin: 0 5px;
+}
