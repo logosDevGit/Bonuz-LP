@@ -73,5 +73,11 @@
         font-size: 16px !important;
     }
 
+    .hubs-service .cards-content {
+        flex-wrap: wrap;
+    }
+    .hubs-service .cards-content .services-card{
+        margin: 10px;
+    }
 
 }
