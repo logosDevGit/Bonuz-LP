@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../assets/styles/global.css'
+import "../../assets/styles/responsive.css"
 import Footer from '../../components/Footer';
 import NavBar from '../../components/NavBar';
 import AppInfo from './views/AppInfo';
@@ -19,7 +20,7 @@ const Home = () => {
         <>
             <NavBar/>
             <Welcome/>
-            <Contact/>
+            {/* <Contact/>
             <ProvenQuality/>
             <HubsService/>
             <Hubs/>
@@ -27,7 +28,7 @@ const Home = () => {
             <LittleHub/>
             <Partners/>
             <AppInfo/>
-            <Footer/>
+            <Footer/> */}
         </>
     )
 }
