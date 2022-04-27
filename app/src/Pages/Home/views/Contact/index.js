@@ -4,6 +4,36 @@ import {Col, Input, Form, FormGroup, Row, Button} from "reactstrap"
 
 const Contact = () => {
 
+const UR = [
+    'AC',
+    'AL',
+    'AP',
+    'AM',
+    'BA',
+    'CE',
+    'ES',
+    'GO',
+    'MA',
+    'MT',
+    'MS',
+    'MG',
+    'PA',
+    'PB',
+    'PR',
+    'PE',
+    'PI',
+    'RJ',
+    'RN',
+    'RS',
+    'RO',
+    'RR',
+    'SC',
+    'SP',
+    'SE',
+    'TO',
+    'DF',
+];
+
     return(
         <div className="contact wd-cont">
             <div className="component">
@@ -24,9 +54,9 @@ const Contact = () => {
                             <FormGroup>
                                 <Input type="select" name="UR" placeholder="Estado">
                                     <option value="">Estado</option>
-                                    <option value="saab">Saab</option>
-                                    <option value="mercedes">Mercedes</option>
-                                    <option value="audi">Audi</option>
+                                    {UR.map(option => {
+                                        return <option value={option}>{option}</option>
+                                    })}
                                 </Input>
                             </FormGroup>
                         </Col>
