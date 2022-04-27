@@ -20,8 +20,8 @@ const Home = () => {
         <>
             <NavBar/>
             <Welcome/>
-            {/* <Contact/>
-            <ProvenQuality/>
+            <Contact/>
+            {/* <ProvenQuality/>
             <HubsService/>
             <Hubs/>
             <HubsPlans/>

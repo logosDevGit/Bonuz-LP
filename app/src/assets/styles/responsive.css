@@ -1,7 +1,16 @@
 @media all and (max-width: 600px) {
+    #root {
+        width: 100%;
+    }
+
     .wd-cont {
         max-width: 100%;
         margin: 0;
+    }
+    
+    nav img {
+        margin-left: 10px;
+        max-width: 300px;
     }
 
     .welcome {
@@ -12,8 +21,17 @@
         justify-content: center;
         flex-wrap: wrap;
     }
-
-    nav img {
-        margin-left: 15px;
+    .welcome img {
+        max-width: 300px;
     }
+    .welcome .cont-1 {
+        margin: 0 18px;
+    }
+
+    .contact .component{
+        display: flex;
+        align-items: flex-end;
+        margin: 0 auto;
+    }
+
 }
