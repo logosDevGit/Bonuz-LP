@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../assets/styles/global.css'
+import Footer from '../../components/Footer';
 import NavBar from '../../components/NavBar';
 import AppInfo from './views/AppInfo';
 import Contact from './views/Contact';
@@ -26,6 +27,7 @@ const Home = () => {
             <LittleHub/>
             <Partners/>
             <AppInfo/>
+            <Footer/>
         </>
     )
 }
