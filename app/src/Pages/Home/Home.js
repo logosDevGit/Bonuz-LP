@@ -23,8 +23,8 @@ const Home = () => {
             <Contact/>
             <ProvenQuality/>
             <HubsService/>
-            {/* <Hubs/>
-            <HubsPlans/>
+            <Hubs/>
+            {/* <HubsPlans/>
             <LittleHub/>
             <Partners/>
             <AppInfo/>

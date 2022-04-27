@@ -11,6 +11,7 @@
     .styled-title .yellow-line {
         max-width: 16px !important;
     } 
+
     
     nav {
         height: 80px;
@@ -20,6 +21,7 @@
         margin-left: 10px;
         max-width: 300px;
     }
+
 
     .welcome {
         display: flex;
@@ -35,6 +37,7 @@
     .welcome .cont-1 {
         margin: 0 18px;
     }
+
 
     .contact .component{
         display: flex;
@@ -53,6 +56,7 @@
         max-width: 360px;
     }
 
+    
     .quality {
         padding-top: 60px !important;
     }
@@ -69,15 +73,33 @@
     .quality-balloon .info h4 {
         font-size: 24px !important;
     }
+
     .quality-balloon .info span {
         font-size: 16px !important;
     }
 
+
     .hubs-service .cards-content {
         flex-wrap: wrap;
     }
+
     .hubs-service .cards-content .services-card{
         margin: 10px;
+    }
+    
+    .hubs {
+        padding-top: 30px !important;
+    }
+
+    .hubs p {
+        font-size: 18px !important;
+        line-height: 124%;
+        padding: 10px !important;
+    }
+
+    .hubs .media {
+        max-width: 345px !important;
+        height: 223px !important;
     }
 
 }
