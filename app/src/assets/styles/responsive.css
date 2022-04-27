@@ -149,4 +149,27 @@
         max-width: 110px;
         height: 38px;
     }
+
+
+    .app-info {
+        padding-top: 0px !important;
+        flex-wrap: wrap;
+        margin: 14px;
+    }
+
+    .app-info small {
+        font-size: 16px !important;
+    }
+
+    .app-info p {
+        font-size: 22px !important;
+    }
+
+    .app-info .big-img {
+        max-width: 320px;
+    }
+    .app-info .big-img img {
+        width: 100%;
+        height: 100%;
+    }
 }
