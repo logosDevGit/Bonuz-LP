@@ -12,12 +12,12 @@ import LittleHub from './views/LittleHub';
 import Partners from './views/Partners';
 import ProvenQuality from './views/ProvenQuality';
 import Welcome from './views/Welcome';
-
+import { BrowserRouter as Route } from 'react-router-dom';
 
 const Home = () => {
 
     return(
-        <>
+        <Route>
             <NavBar/>
             <Welcome/>
             <Contact/>
@@ -29,7 +29,7 @@ const Home = () => {
             <Partners/>
             <AppInfo/>
             <Footer/>
-        </>
+        </Route>
     )
 }
 
